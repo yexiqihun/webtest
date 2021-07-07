@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link rel="stylesheet" href="./CSS/index.css" />
+  </head>
+  <body>
+    <!-- 页眉区header -->
+    <div id="header">
+      <div id="t1">
+        <div id="t1-1">Welcome!</div>
+        <div id="t1-2"></div>
+      </div>
+      <div class="inner"></div>
+    </div>
+    <!-- end of header -->
+    <!-- 导航区nav -->
+    <div id="nav">
+      <div class="inner">
+        <div id="navbar">
+          <div id="navbox">
+            <div id="窗口1">
+              <div id="nav_item1">
+                <a href="index.html">
+                  <div class="item-name">首页</div>
+                </a>
+              </div>
+              <div id="nav_item2">
+                <a href="index1.html">
+                  <div class="item-name">生活日志</div>
+                  <i id="mark"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of nav -->
+
+    <!--1号内容区container_1，内部又分为三个部分cont_1_1 cont_1_2 cont_1_3 -->
+    <div id="container_1">
+      <!-- 第一部分分为三个盒子：图片，文本，图片 -->
+      <div id="cont_1_1">
+        <img src="img/宫崎骏1.jpeg" width='170px'height='480px' />
+        <img src="img/宫崎骏4.jpeg" width='170px'height='480px' />
+      </div>
+      <div id="cont_1_2">
+        <div id="c1_2_text">
+          <h1>寻找生活中的美好！</h1>
+          <p>
+            法国著名雕塑家罗丹说：“世界上并不缺少美，只是缺少发现美的眼睛。”
+          </p>
+          <p>
+            行走在城市之间，穿梭在人群中间。我突然想抬头看一看天空，看看蓝天朵朵白云之间，总感觉是那么和谐、美丽的画面。没有特别的语言，只是觉得给了心灵一次净化。
+          </p>
+
+          <p>
+            欢迎进入我的个人网站，我喜欢记录生活中的美好，听轻音乐，追剧和旅游，点击导航区“生活日志”来了解我吧！
+          </p>
+        </div>
+      </div>
+      <div id="cont_1_3">
+        <img src="img/宫崎骏2.jpeg" width="170px" height='480px' />
+        <img src="img/宫崎骏5.jpeg" width="170px" height='480px' />
+      </div>
+    </div>
+    <!-- end of container_1 -->
+    <!-- 2号内容区container_2 表单 -->
+    <div id="container_2">
+      <table class="innerframe">
+        <tbody>
+          <tr>
+            <td>
+              <form action="" method="post">
+                <div id="head">
+                    <div id="head_wrapper">
+                        <div id="head_over">
+                            <div id="head_title">
+                                <h2>一起来答题</h2>
+                                <h3>下面的题目知多少，快来试试吧！</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="group">
+                    <div id="group_bbd">
+                      <!-- 表单问题1 -->
+                        <div id="group_1">
+                            <div id="ww">
+                                <div id="group_1_bdd">
+                                    <div id="group_1_head">
+                                        <div id="group_1_title">
+                                            <span class="asterisk">*</span>
+                                            <span class="group_1_qu">
+                                                <label for="type"> 1.下图中的书籍是哪位作家的作品？</label><br />
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div id="group_1_answer">
+                                        <div id="gr1_atext">
+                                            <ul class="answer-list radio-list">
+                                                <li id="item1">
+                                                    <input type="radio" name="beansType" id="bean" />
+                                                <label for="bean"> 阿耐</label>
+                                                </li>
+                                                <li id="item1">
+                                                    <input type="radio" name="beansType" id="bean" />
+                                                <label for="bean"> 亦舒</label>
+                                                </li>
+                                                <li id="item1">
+                                                    <input type="radio" name="beansType" id="bean" />
+                                                <label for="bean"> 沈石溪</label>
+                                                </li>
+                                            </ul>
+                                        </div> 
+                                        <div id="gr1_picture">
+                                          <img src="img/食荤者图片.jpg" width='200px' height='200px'>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <!-- 表单问题2 -->
+                        <div id="group_2">
+                          <div id="ww">
+                              <div id="group_1_bdd">
+                                  <div id="group_1_head">
+                                      <div id="group_1_title">
+                                          <span class="asterisk">*</span>
+                                          <span class="group_1_qu">
+                                              <label for="type"> 2.下图中的景观名称是什么？</label><br />
+                                          </span>
+                                      </div>
+                                  </div>
+                                  <div id="group_1_answer">
+                                      <div id="gr1_atext">
+                                          <ul class="answer-list radio-list">
+                                              <li id="item1">
+                                                  <input type="radio" name="beansType" id="bean" />
+                                              <label for="bean"> 青海湖</label>
+                                              </li>
+                                              <li id="item1">
+                                                  <input type="radio" name="beansType" id="bean" />
+                                              <label for="bean"> 羊湖</label>
+                                              </li>
+                                          </ul>
+                                      </div> 
+                                      <div id="gr1_picture">
+                                        <img src="img/青海湖.jpeg" width='350px' height='200px'>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <br>
+                      <!-- 表单问题3 -->
+                      <div id="group_3">
+                        <div id="ww">
+                            <div id="group_1_bdd">
+                                <div id="group_1_head">
+                                    <div id="group_1_title">
+                                        <span class="asterisk">*</span>
+                                        <span class="group_1_qu">
+                                            <label for="type"> 3.你最想去哪里旅游？</label><br />
+                                        </span>
+                                    </div>
+                                </div>
+                                <div id="group_1_answer">
+                                    <div id="gr1_atext">
+                                        <ul class="answer-list radio-list">
+                                            <li id="item1">
+                                                <input type="radio" name="beansType" id="bean" />
+                                            <label for="bean"> 北京</label>
+                                            </li>
+                                            <li id="item1">
+                                                <input type="radio" name="beansType" id="bean" />
+                                            <label for="bean"> 长沙</label>
+                                            </li>
+                                            <li id="item1">
+                                              <input type="radio" name="beansType" id="bean" />
+                                          <label for="bean"> 武汉</label>
+                                          </li>
+                                          <li id="item1">
+                                            <input type="radio" name="beansType" id="bean" />
+                                        <label for="bean"> 青海</label>
+                                        </li>
+                                        <li id="item1">
+                                          <input type="radio" name="beansType" id="bean" />
+                                      <label for="bean"> 三亚</label>
+                                      </li>
+                                      <li id="item1">
+                                        <input type="radio" name="beansType" id="bean" />
+                                    <label for="bean"> 西藏</label>
+                                    </li>
+                                        </ul>
+                                    </div> 
+                                    <div id="gr1_picture">
+                                      <img src="img/天安门.jpeg" width='350px' height='200px'>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- 问题4 提建议的部分 -->
+                        <div id="group_4">
+                            <div id="w2">
+                                <div id="bddd">
+                                    <div id="group_1_head">
+                                        <div id="group_1_title">
+                                            <span class="asterisk"></span>
+                                            <span class="group_1_qu">
+                                                <label for="type">
+                                                    4.请您对我的网站提建议！（例如：哪里有问题，哪些功能做得不够好等）
+                                                </label>
+                                            </span>
+                                        </div>
+                                        <div id="group_2_answer">
+                                            <div id="gr2_atext">
+                                                <div id="gg_ans">
+                                                    <p class="answer-list radio-list">
+                                                        <label for="type"></label>
+                                                        <textarea class="textarea empty" name="number" id="number" alt="答案" rows="5" cols="40"></textarea>
+                                                    <p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <br> -->
+                </div>
+                <br>
+                <!-- 收集信息部分 -->
+                <div id="group_g">
+                    <div id="group_g_1">
+                        <div id="group_g_bd">
+                            <br>
+                            <div id="left">
+                                <span class="group-name">用户信息收集</span>
+                            </div>
+                            <br>
+                            <div id="group_g_question">
+                                <div id="g_www">
+                                    <div id="g_tttdd">
+                                        <div id="ggtitle">
+                                            <div id="g_qqqtt">
+                                                <p>
+                                                    <strong>
+                                                        请留下您的信息，方便与您进行进一步的交流。
+                                                    </strong>
+                                                </p>
+                                                <p>
+                                                  <strong>
+                                                    感谢您进入我的网站，了解我的生活，希望我们都能以心之所向，素履以往的生活态度来面对生活中的磕磕绊绊，努力成长，珍惜点滴生活。请相信，时光会把我们雕刻成应有的样子！
+                                                  </strong>
+                                              </p>
+                                               
+                                                <br>
+                                            </div>
+                                            
+                                            <div id="ggaa">
+                                                <div id="g_tttt">
+                                                    <div id="q_list">
+                                                        <div id="qq_list">
+                                                            <label for="tip">姓名</label>
+                                                            <span class="tip"></span ><span class="content"><input type="text" name="uname" /></span><br />
+                                                        </div>
+                                                        <div id="qqq_list">
+                                                            <label for="tip">手机号</label>
+                                                            <span class="tip"></span><span class="content" ><input type="text" name="phone number" /></span><br />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                <!-- 提交部分 -->
+                <div id="gg_submit">
+                    <div id="group_submit_bd">
+                        <div id="gsbq">
+                            <div id="gs_buttons">
+                                <button class="submit" type="submit">
+                                    <span class="ui-button-text">提交</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </form>
+            </td>
+           </tr>
+       </tbody>
+     </table>
+    </div>
+    <!--  end of container_2 -->
+    <!-- 页脚区footer -->
+    <div id="footer">
+      <div class="inner">
+        <div class="foot">
+          <div class="foot-l">
+            <p>Copyright@xiaolu All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of footer -->
+  </body>
+</html>

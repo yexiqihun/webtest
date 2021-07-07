@@ -1,0 +1,357 @@
+body{
+     font-family: "Microsoft YaHei";
+     font-family: "SimSun";
+     margin: 0; 
+}
+ div.inner{
+     float:center;
+     width:1000px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ div#header{
+     height:96px;
+     background-image: url(../img/图1.jpg);
+ }
+
+ #t1{
+    padding:40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style:purple;
+    font-size:40px;
+    text-align: center;
+}
+
+#t1-1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    float:left;
+    font-style: italic;
+    color:rgb(56, 68, 136);
+}
+
+#t1-2{
+    float:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:30px;
+    font-weight: bold;
+    color:rgb(8, 109, 224);
+}
+
+div#nav{
+    height:41px;
+    background-color: rgb(202, 179, 240);
+}
+
+div#navbar{
+    width:100%;
+    height:41px;
+}
+
+div#navbox{
+    width:1000px;
+    height:41px;
+    margin:0 auto;
+    padding: 0;
+}
+
+div#窗口1{
+    margin: 0;
+    padding: 0;
+    height:41px;
+    float:center;
+}
+
+div#nav_item1{
+    display: inline-block;
+    position: relative;
+    vertical-align: bottom;
+    list-style:none;
+    width:150px;
+    height:41px;
+    margin: 0;
+    padding-left:320px;
+    border:0px;
+}
+
+div#item-name{
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:36.74px;
+    height:41px;
+    line-height:41px;
+    display:inline-block;
+    cursor:pointer;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+div#nav_item2{
+    display: inline-block;
+    position: relative;
+    vertical-align: bottom;
+    list-style:none;
+    width:150px;
+    height:41px;
+    margin: 0;
+    padding: 0;
+    border:0px;
+}
+
+.item-name{
+   font-family:"隶书";
+    width:80px;
+    height:41px;
+    padding-top:5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display:inline-block;
+    cursor:pointer;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    list-style:none;
+    text-align: center;
+}
+
+
+
+div#mark{
+    display:block;
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:99;
+    font-style:none;
+}
+
+/* 一张大图部分 */
+#container_1{
+    height:300px;
+    background-color: rgb(163, 202, 235);
+}
+
+#post{
+    float:left;
+    width:1000px;
+    height:300px;
+}
+
+
+#cont_1{
+    height:300px;
+}
+
+/* 第二部分：这部分包括左边的选择导航和右边的旅游介绍*/
+#container_2{
+    height:4500px;
+    background-color:rgb(238, 235, 206);
+ }
+
+.cont_2_1{
+    width:200px;
+    height:170px;
+    float:left;
+    margin-left:1px;
+    margin:15px; 
+    background-color: rgb(223, 152, 130);
+ }
+
+.col_menu_con{
+    width:210px;
+    height:170px;
+}
+
+.col_list{
+    width:210px;
+    height:170px;
+}
+
+#listcolumn{
+    width:210px;
+    height:170px;
+}
+
+ul{
+    list-style:none;
+    text-decoration:none;
+    width:210px;
+    height:170px;
+}
+
+li{
+    text-decoration:none;
+    list-style:none;
+    width:210px;
+    height:50px;
+
+}
+
+a{
+    text-decoration:none; 
+    list-style:none; 
+    font-size: 14px;
+    color: #777;
+    background: transparent; 
+    border-top: none;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.column-name{
+    text-decoration:none;
+    padding-top:20px;
+    line-height: 18px!important;
+    margin: 10px;
+    margin-left: 1px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(36, 143, 192);
+    font-weight: bold;
+    font-family: "隶书";
+}
+
+/* 2.2 右边的整体介绍页面（有视频的整体介绍部分+10个景点介绍）*/
+#cont_2_2{
+    float:left;
+    margin-top:0px;
+    width:1000px;
+    height:4420px;
+    background-color: rgb(155, 231, 140);
+}
+h4{
+    font-size:40px;
+    font-family:"楷体";
+    margin-top: 10px;
+    margin-bottom:5px;
+    margin-left:40px;
+    padding-top:5px;
+    text-align: left;
+   
+}
+/* 2.2.1 有视频的整体介绍部分 */
+#cont_2_2_1{
+    width:1000px;
+    margin-top:0px;
+    height:400px;
+    background-color:rgb(230, 166, 141); 
+    float:center;
+}
+/* 2.2.1的左边的h1和图片部分 */
+#cont_2_2_1_left{
+    float:left;
+    width:600px;
+    height:320px;
+    margin-left:16px;
+    margin-top:0px;
+    padding-top:0px;
+}
+
+video{
+    margin-top:0px;
+    padding:0px;
+    width:600px;
+    height:320px;
+    object-fit:contain;
+    
+}
+/* 有视频的右边的文字介绍部分 */
+#cont_2_2_1_right{
+    margin-left:20px;
+    margin-top:0px;
+    padding-top:0px;
+    float:left;
+    width:350px;
+    height:340px;
+    font-family:"华文行楷";
+}
+
+/* 有视频的部分的文本介绍 */
+#ct2_2_1_text{
+    margin-top:0px;
+    padding-top:0px;
+    width:350px;
+    height:340px;
+} 
+    
+
+p{
+    text-indent:2em;
+    margin-top: 10px;
+    margin-bottom:0px;
+    padding: 0;
+    font-size:25px;
+    font-family:"楷体";
+    line-height:25px;
+}
+
+/* 2.2.2  */
+#cont_2_2_2{
+    width:1000px;
+    margin-top:4px;
+    height:4050px;
+    background-color:rgb(24, 91, 216); 
+    float:left;
+}
+
+
+/* 右边的介绍部分的每一个框 */
+#ct_1{
+    width:1000px;
+    height:400px;
+    background-color: rgb(216, 177, 233); 
+}
+
+/* 介绍部分的左边盒子（标题+图片） */
+#ct_1_left{
+    float:left;
+    width:620px;
+    height:380px;
+    background-color: rgb(173, 195, 241); 
+}
+/* 介绍部分的右边盒子（文字介绍部分） */
+#ct_1_right{
+    margin-left:10px;
+    margin-top:0px;
+    float:left;
+    width:365px;
+    height:380px;
+    background-color:rgb(212, 243, 212); 
+}
+/* 右边盒子的文字部分 */
+#ct_1_text{
+    margin-left:4px;
+    margin-top:25px;
+    width:355px;
+    height:380px;
+}
+
+/* 页脚区 */
+/* 页脚区 footer Start */
+#footer{
+    height:60px;
+    background-color:#202020;
+    padding: 0;
+    display:block;
+}
+
+.foot-l {
+    width: 344px;
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 10px;
+}
+
+#footer .inner p {
+    font-size: 12px;
+    color: #8d8976;
+    line-height: 48px;
+}
+/* 页脚区结束 */

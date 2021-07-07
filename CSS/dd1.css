@@ -1,0 +1,361 @@
+body{
+     font-family: "Microsoft YaHei";
+     font-family: "SimSun";
+     margin: 0; 
+ }
+ div.inner{
+     float:center;
+     width:1000px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ div#header{
+     height:96px;
+     background-image: url(../img/图1.jpg);
+ }
+
+ #t1{
+    padding:40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style:purple;
+    font-size:40px;
+    text-align: center;
+}
+
+#t1-1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    float:left;
+    font-style: italic;
+    color:rgb(56, 68, 136);
+}
+
+#t1-2{
+    float:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:30px;
+    font-weight: bold;
+    color:rgb(8, 109, 224);
+}
+
+div#nav{
+    height:41px;
+    background-color: rgb(202, 179, 240);
+}
+
+div#navbar{
+    width:100%;
+    height:41px;
+}
+
+div#navbox{
+    width:1000px;
+    height:41px;
+    margin:0 auto;
+    padding: 0;
+}
+
+div#窗口1{
+    margin: 0;
+    padding: 0;
+    height:41px;
+    float:center;
+}
+
+div#nav_item1{
+    display: inline-block;
+    position: relative;
+    vertical-align: bottom;
+    list-style:none;
+    width:150px;
+    height:41px;
+    margin: 0;
+    padding-left:320px;
+    border:0px;
+}
+
+div#item-name{
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:36.74px;
+    height:41px;
+    line-height:41px;
+    display:inline-block;
+    cursor:pointer;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+div#nav_item2{
+    display: inline-block;
+    position: relative;
+    vertical-align: bottom;
+    list-style:none;
+    width:150px;
+    height:41px;
+    margin: 0;
+    padding: 0;
+    border:0px;
+}
+
+.item-name{
+   font-family:"隶书";
+    width:80px;
+    height:41px;
+    padding-top:5px;
+    padding-left:25px; 
+    padding-right: 25px;
+    display:inline-block;
+    cursor:pointer;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    list-style:none;
+    text-align: center;
+}
+
+
+div#mark{
+    display:block;
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:99;
+    font-style:none;
+}
+
+/* 一张大图部分：橘子洲头图片 */
+#container_1{
+    height:300px;
+    background-color: rgb(163, 202, 235);
+}
+
+#post{
+    height:300px;
+    background-color:red;
+}
+
+#cont_1_1{
+    height:300px;
+}
+
+
+/* 第二部分：这部分包括左边的选择导航和右边的旅游页面部分（长沙之行，之行，北京之行）*/
+#container_2{
+   height:2000px;
+   background-color:rgb(119, 181, 231);
+}
+
+/* 2.1 左边的选择导航 */
+.cont_2_1{
+    width:200px;
+    height:170px;
+    float:left;
+    margin-left:1px;
+    margin:15px; 
+    background-color: rgb(223, 152, 130);
+ }
+
+.col_menu_con{
+    width:210px;
+    height:170px;
+}
+
+.col_list{
+    width:210px;
+    height:170px;
+}
+
+#listcolumn{
+    width:210px;
+    height:170px;
+}
+
+ul{
+    list-style:none;
+    text-decoration:none;
+    width:210px;
+    height:170px;
+}
+
+li{
+    text-decoration:none;
+    list-style:none;
+    width:210px;
+    height:50px;
+
+}
+
+a{
+    text-decoration:none; 
+    list-style:none; 
+    font-size: 14px;
+    color: #777;
+    background: transparent; 
+    border-top: none;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.column-name{
+    text-decoration:none;
+    padding-top:20px;
+    line-height: 18px!important;
+    margin: 10px;
+    margin-left: 1px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(36, 143, 192);
+    font-weight: bold;
+    font-family: "隶书";
+}
+
+
+/* 2.2 右边的旅游页面 */
+#cont_2_2{
+    float:left; 
+    margin-top:4px;
+    width:1000px;
+    height:1950px;
+    background-color: rgb(80, 168, 240);
+}
+
+/* 2.2.1 长沙之行 */
+#ct_2_2_1{
+    width:980px;
+    margin-top:4px;
+    height:500px;
+    background-color:rgb(223, 193, 233);
+    float:left;
+}
+/* 2.2.1的左边的h1和图片部分 */
+#ct_2_2_1_left{
+    float:left;
+    width:620px;
+    height:500px;
+    margin-left:6px;
+}
+
+/* 标题h1,h2,h3(长沙之行，之行，北京之行） */
+h1,h2,h3{
+    margin-left:30px;
+    font-family:"隶书";
+    font-size:40px;
+}
+/* 每一个框的右边文字部分 */
+#ct_right_1{
+    width:320px;
+    height:480px;
+    float:left;
+    margin-top: 5px;
+    margin-left:10px;
+}
+
+#ct_2_2_1_text{
+    width:320px;
+    height:370px;
+    margin-top:70px;
+    float:center;
+    font-size:22px;
+    font-family: '楷体';
+    text-indent: 2em;
+}
+
+/* 2.2.2 西藏之行 */
+#cont_2_2_2{
+    width:980px;
+    margin-top:20px;
+    height:750px;
+    background-color:rgb(223, 193, 233);
+    float:left;
+}
+
+#cont_2_2_2_left{
+    width:620px;
+    height:740px;
+    margin-left:6px;
+    float:left;
+}
+
+#ct_right_2{
+    width:320px;
+    height:700px;
+    float:left;
+    margin-top: 5px;
+    margin-left:10px;
+}
+
+#ct_2_2_2_text{
+    width:320px;
+    height:600px;
+    margin-top: 70px;
+    float:center;
+    font-size:22px;
+    font-family: '楷体';
+    text-indent: 2em;
+}
+
+/* 北京之行 */
+#cont_2_2_3{
+    width:980px;
+    margin-top:20px;
+    height:620px;
+    background-color:rgb(223, 193, 233);
+    float:left;
+}
+
+#cont_2_2_3_left{
+    width:620px;
+    height:600px;
+    margin-left:6px;
+    float:left;
+}
+
+#ct_right_3{
+    width:320px;
+    height:600px;
+    float:left;
+    margin-top: 5px;
+    margin-left:10px;
+}
+
+#ct_2_2_3_text{
+    width:320px;
+    height:450px;
+    margin-top: 70px;
+    float:center;
+    font-size:22px;
+    font-family: '楷体';
+    text-indent: 2em;
+    
+}
+
+/* 页脚区 */
+/* 页脚区 footer Start */
+#footer{
+    height:60px;
+    background-color:#202020;
+    padding: 0;
+    display:block;
+}
+
+.foot-l {
+    width: 344px;
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 10px;
+}
+
+#footer .inner p {
+    font-size: 12px;
+    color: #8d8976;
+    line-height: 48px;
+}
+/* 页脚区结束 */
